@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", system-ui;
+}
+
+.page__margin {
+  margin: 20px;
+}
+
+/* Nav */
+
+nav {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.logo {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-bottom-width: 0px;
+  font-weight: 900;
+  margin-left: 0px !important;
+  font-size: 1.5rem !important;
+  text-decoration: none;
+}
+
+.img__logo {
+  width: 32px;
+  margin: 0 auto;
+}
+
+.nav__links {
+  display: flex;
+}
+.nav__link {
+  margin: 0px 1.5rem;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.purple {
+  color: rgb(100 21 255);
+}
+
+/* INTRO */
+
+.h1__intro {
+  font-size: 32px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro__container {
+  display: flex;
+  margin: 50px;
+  height: 100vh;
+}
+
+.intro__wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.img__intro {
+  width: 60%;
+}
+
+.img__img {
+}
