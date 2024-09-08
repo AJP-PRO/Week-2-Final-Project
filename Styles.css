@@ -110,7 +110,7 @@ font-size: 40px;
     position: absolute;
     right: 20px;
     top: 10px;
-    padding 8px;
+    padding: 8px;
 }
 
 /* HEADER */
@@ -154,7 +154,7 @@ font-size: 40px;
 
 
 
-@media (max-width: 550 px) {
+@media (max-width: 550px) {
     .nav__links {
         display: none;
     }
