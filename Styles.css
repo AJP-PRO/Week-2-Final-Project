@@ -139,12 +139,6 @@ li {
   margin: 32px;
 }
 
-.row {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .landing__container {
   display: flex;
   max-height: 600px;
@@ -460,6 +454,119 @@ margin: 12px
   text-size-adjust: 100%;
   margin: 24px;
 }
+
+/* PRICING */
+
+.pricing__container {
+  margin: 24px;
+}
+
+.pricing__title--wrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 32px;
+}
+
+.pricing__title {
+  margin: 24px 0;
+  font-size: 48px;
+  text-align: left;
+}
+
+.pricing__p {
+  font-size: 1.25rem;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.625;
+  font-weight: 500;
+  color: rgb(124 139 161);
+  margin-bottom: 24px;
+  display: flex;
+  width: 50%;
+  text-align: center;
+}
+
+.pricing__plan--container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.pricing__plan {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pricing__plan--group {
+  width: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.pricing__plan--top {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.pricing__plan--mid {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.pricing__plan--bottom {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.pricing__plan--title {
+  font-weight: 800;
+}
+
+.pricing__plan--price {
+  font-size: 50px;
+  margin: 24px 24px;
+}
+
+.pricing__plan--monthly {
+  color: rgb(151, 151, 151)
+}
+
+.pricing__plan--mid--title {
+  font-weight: 800;
+  font-size: 20px;
+  margin: 24px;
+}
+
+.pricing__plan--info {
+  color: rgb(151, 151, 151);
+  margin: 12px;
+}
+
+.pricing__btn1 {
+background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+width: 60%;
+margin: 12px;
+color: white;
+
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+}
+
 
 /* MEDIA */
 
