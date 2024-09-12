@@ -206,6 +206,7 @@ li {
   padding: 12px;
   position: absolute;
   right: 10px;
+  bottom: 0.05px;
 }
 
 .email {
@@ -467,8 +468,9 @@ li {
 
 .pricing__title {
   margin: 24px 0;
+  display: flex;
+  text-align: center;
   font-size: 48px;
-  text-align: left;
 }
 
 .pricing__p {
@@ -919,7 +921,7 @@ li {
 .footer__links {
   display: flex;
   flex-direction: column;
-  width: calc(100%/5);
+  width: calc(100% / 5);
   align-items: center;
   color: white;
 }
@@ -1016,4 +1018,88 @@ li {
   .btn__menu {
     display: block;
   }
+
+  .landing__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing__wrapper {
+    width: 100%;
+    display: flex;
+  }
+  .img__landing--wrapper {
+    margin: 0 auto;
+    padding-top: 24px;
+  }
+
+  .features__title {
+    text-align: center;
+  }
+
+  .features__h1 {
+    margin: 24px 0;
+  }
+
+  .features__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .quality__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quality__text--group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .steps__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .steps__text--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.vlaues__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.values__btn {
+  margin: 0 auto;
+}
+
+.test__container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+}
+
+.test__contact {
+margin: 0 auto;
+}
+
+.pre__footer--body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pre__footer--h1 {
+  margin-bottom: 32px;
+  width: 100%;
+}
 }
