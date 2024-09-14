@@ -1,5 +1,7 @@
-const btn = document.querySelector(".btn__menu");
-
 function openMenu() {
-  btn.classList.toggle("menu--open");
+document.body.classlist += " menu--open"    
+}
+
+function closeMenu() {
+document.body.classlist.remove("menu--open")
 }

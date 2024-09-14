@@ -13,11 +13,6 @@
   margin: 0 auto;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
 
 /* Nav */
 
@@ -931,25 +926,31 @@ li {
   width: calc(100% / 5);
   align-items: center;
   color: white;
+  gap: 24px;
 }
 
 .footer__links--title {
   color: white;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .footer__ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 50px;
   color: white;
+  gap: 12px;
 }
 
 .footer__li {
   color: white;
   height: 100%;
+}
+
+.footer__a {
+  color: white;
+  text-decoration: none;
 }
 
 .footer__borderline {
@@ -966,8 +967,8 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 50px;
   padding-bottom: 50px;
+  margin: 0 24px;
 }
 
 .footer__logo--wrapper {
