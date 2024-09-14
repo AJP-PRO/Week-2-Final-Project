@@ -350,6 +350,7 @@ li {
   flex-direction: column;
   width: 50%;
   opacity: 0.75;
+  margin:  32px;
 }
 
 .steps__title {
